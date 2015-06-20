@@ -12,8 +12,8 @@ This document describes the code inside `run_analysis.R`.
 6. Using ddply function to make independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Tidy DataSet Output.txt##
-Below 86 variable staring from tBodyAcc-mean()-X to angle(Z,gravityMean) describes the average value for each activity of each subject.
-1. tBodyAcc-mean()-X                   : numeric
+Below 86 variable staring from 'tBodyAcc-mean()-X' to 'angle(Z,gravityMean)' describes the average value for each activity of each subject.
+1. 'tBodyAcc-mean()-X'                 : numeric
 2. tBodyAcc-mean()-Y                   : numeric
 3. tbodyAcc-mean()-Z                   : numeric
 4. tBodyAcc-std()-X                    : numeric
