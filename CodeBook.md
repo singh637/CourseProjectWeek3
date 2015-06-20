@@ -14,10 +14,10 @@ This document describes the code inside `run_analysis.R`.
 ##Tidy DataSet Output.txt##
 1. First 86 columns contains the average of each variable for each activity and each subject.
 2. 87th Column contains the activity performed by subject. Code for different activity:
-  1. WALKING
-  2. WALKING_UPSTAIRS
-  3. WALKING_DOWNSTAIRS
-  4. SITTING
-  5. STANDING
-  6. LAYING
+  * 1 WALKING
+  * 2 WALKING_UPSTAIRS
+  * 3 WALKING_DOWNSTAIRS
+  * 4 SITTING
+  * 5 STANDING
+  * 6 LAYING
 3. 88th Column contains the id (1 to 30) of person who performed experiment.
