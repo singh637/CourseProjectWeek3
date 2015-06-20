@@ -12,23 +12,22 @@ This document describes the code inside `run_analysis.R`.
 6. Using ddply function to make independent tidy data set with the average of each variable for each activity and each subject.
 
 ##Tidy DataSet Output.txt##
-
--Below 86 variable staring from tBodyAcc-mean()-X to angle(Z,gravityMean) describes the average value for each activity of each subject.
--tBodyAcc-mean()-X                   : numeric
--tBodyAcc-mean()-Y                   : numeric
--tBodyAcc-mean()-Z                   : numeric
--tBodyAcc-std()-X                    : numeric
--tBodyAcc-std()-Y                    : numeric
--tBodyAcc-std()-Z                    : numeric
--tGravityAcc-mean()-X                : numeric
--tGravityAcc-mean()-Y                : numeric
--tGravityAcc-mean()-Z                : numeric
--tGravityAcc-std()-X                 : numeric
--tGravityAcc-std()-Y                 : numeric
--tGravityAcc-std()-Z                 : numeric
--tBodyAccJerk-mean()-X               : numeric
--tBodyAccJerk-mean()-Y               : numeric
--tBodyAccJerk-mean()-Z               : numeric
+Below 86 variable staring from tBodyAcc-mean()-X to angle(Z,gravityMean) describes the average value for each activity of each subject.
+1. tBodyAcc-mean()-X                   : numeric
+2. tBodyAcc-mean()-Y                   : numeric
+3. tbodyAcc-mean()-Z                   : numeric
+4. tBodyAcc-std()-X                    : numeric
+5. tBodyAcc-std()-Y                    : numeric
+6. tBodyAcc-std()-Z                    : numeric
+7. tGravityAcc-mean()-X                : numeric
+8. tGravityAcc-mean()-Y                : numeric
+9. tGravityAcc-mean()-Z                : numeric
+10. tGravityAcc-std()-X                 : numeric
+11. tGravityAcc-std()-Y                 : numeric
+12. tGravityAcc-std()-Z                 : numeric
+13. tBodyAccJerk-mean()-X               : numeric
+14. tBodyAccJerk-mean()-Y               : numeric
+15. tBodyAccJerk-mean()-Z               : numeric
 -tBodyAccJerk-std()-X                : numeric
 -tBodyAccJerk-std()-Y                : numeric
 -tBodyAccJerk-std()-Z                : numeric
