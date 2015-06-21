@@ -21,3 +21,12 @@ This document describes the code inside `run_analysis.R`.
   * 5 STANDING
   * 6 LAYING
 3. 88th Column contains the id (1 to 30) of person who performed experiment.
+
+##Variable##
+1. activityLabelPath,featureLabelPath,subjectTrainPath,xTrainPath,yTrainPath,subjectTestPath,xTestPath and yTestPath have been used to
+store the path of files in UCI HAR DataSet folder.
+2. activityLabel, featureLabel, x_train_data, x_test_data, y_train_data, y_test_data, subject_train_data and subject_test_data contains 
+data read from the corresponding file.
+3. indices stores the index of the measurement related to mean and sd.
+4. reqData stores final tiddy data obtained after applying different transformation.
+
